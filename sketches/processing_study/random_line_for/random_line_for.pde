@@ -87,7 +87,7 @@ void sinNoise() {
   }
 }
 
-float customRandom(){
+float customRandom() {
   float retValue = 1 - pow(random(1), 10);
   return retValue;
 }
